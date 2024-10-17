@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f3fc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .two2 {
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.tickOne {
+    width: 550px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.x img {
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    width: 20px;
+}
+
+.tickOne p {
+    position: absolute;
+    top: 13px;
+    left: 35px;
+}
+
+.tickOne .one img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+
+.tickTwo {
+    width: 550px;
+    height: 45px;
+    background-color: #151726;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.x2 img {
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    width: 20px;
+}
+
+.tickTwo .two img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+
+.tickTwo p {
+    position: absolute;
+    top: 13px;
+    left: 35px;
+}
+
+.two2 {
+    margin-bottom: 20px;
+}
+.container .three3 {
+    gap: 20px;
+    margin-bottom: 60px;
+}
+.tickThree {
+    width: 550px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tickThree .three img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.tickThree p {
+    position: absolute;
+    top: 11px;
+    left: 35px;
+}
+
+.x img {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    width: 20px;
+}
+
+.tickFour {
+    width: 550px;
+    height: 40px;
+    background-color: #151726;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tickFour .four img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.tickFour p {
+    position: absolute;
+    top: 11px;
+    left: 35px;
+}
+
+.x img {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    width: 20px;
+}
+
+.three3 {
+    margin-bottom: 20px;
+}
+
+.tickFive {
+    width: 550px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tickFive .five img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 13px;
+    left: 140px;
+}
+
+.tickFive p {
+    position: absolute;
+    top: 13px;
+    left: 165px;
+}
+
+.tickSix {
+    width: 550px;
+    height: 45px;
+    background-color: #151726;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tickSix .six img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 13px;
+    left: 140px;
+}
+
+.tickSix p {
+    position: absolute;
+    top: 13px;
+    left: 165px;
+}
